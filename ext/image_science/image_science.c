@@ -232,7 +232,7 @@ extern "C" {
 
     rb_define_method(c, "height", (VALUE(*)(ANYARGS))height, 0);
     rb_define_method(c, "resize", (VALUE(*)(ANYARGS))_resize, 2);
-    rb_define_method(c, "resize", (VALUE(*)(ANYARGS))resize, 3);
+    // rb_define_method(c, "resize", (VALUE(*)(ANYARGS))resize, 3);
     rb_define_method(c, "save", (VALUE(*)(ANYARGS))save, 1);
     rb_define_method(c, "width", (VALUE(*)(ANYARGS))width, 0);
     rb_define_method(c, "with_crop", (VALUE(*)(ANYARGS))with_crop, 4);
